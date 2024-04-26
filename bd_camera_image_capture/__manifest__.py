@@ -29,7 +29,7 @@ Long description of module's purpose
     'website': 'https://beyondatagroup.com/',
     'license': 'LGPL-3',
     'version': '17.0.0.0',
-    'price': '17.00',
+    'price': '17.20',
     'currency': 'USD',
     'depends': ['base','product','stock','hr'],
     'assets': {
