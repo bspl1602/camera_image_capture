@@ -26,12 +26,12 @@
 Long description of module's purpose
     """,
     'author': 'BeyonData Solutions Private Limited',
-    'website': 'https://erp.beyondatagroup.com/',
+    'website': 'https://beyondatagroup.com/',
     'license': 'LGPL-3',
     'version': '17.0.0.0',
-    # 'price': '00.00',
-    # 'currency': 'USD',
-    'depends': ['base','product','stock'],
+    'price': '17.00',
+    'currency': 'USD',
+    'depends': ['base','product','stock','hr'],
     'assets': {
         'web.assets_backend': [
             'bd_camera_image_capture/static/src/xml/image_upload.xml',
@@ -40,6 +40,7 @@ Long description of module's purpose
             'bd_camera_image_capture/static/src/js/camera_dialog.js'
         ]
     },
+    "images": ["static/description/banner.gif"],
 
     'installable': True,
     'auto_install': True,
